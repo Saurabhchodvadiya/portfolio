@@ -32,7 +32,7 @@ export const projectsData = [
         projectName: 'Helthigy(Company)',
         projectDesc: 'Connecting clients, investors, and fostering innovation through seamless communication for exceptional results and partnerships.',
         tags: ['Django', 'DRF', 'Jinja'],
-        code: '',
+        code: 'Healthegy.decimalpointanalytics.com',
         demo: 'Healthegy.decimalpointanalytics.com',
         image: three
     },
@@ -42,7 +42,7 @@ export const projectsData = [
         projectDesc: 'Organizing a dynamic sports event that fosters a sense of camaraderie and healthy competition, bringing together athletes, coaches, and sports enthusiasts to celebrate athleticism and passion for the game',
         tags: ['Flutter', 'FastAPI','Mongodb'],
         code: 'https://play.google.com/store/apps/details?id=com.outify&hl=en-IN',
-        demo: '',
+        demo: 'https://play.google.com/store/apps/details?id=com.outify&hl=en-IN',
         image: four
     },
     {
@@ -51,7 +51,7 @@ export const projectsData = [
         projectDesc: 'Your go-to source for up-to-date and personalized news delivered straight to your fingertips.Oracle Cloud Infrastructure 2022',
         tags: ['Django', 'Jinja'],
         code: 'https://github.com/Saurabhchodvadiya/4thpillernewsapp',
-        demo: '',
+        demo: 'https://github.com/Saurabhchodvadiya/4thpillernewsapp',
         image: four
     }
 ]
