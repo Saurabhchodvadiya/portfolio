@@ -18,15 +18,15 @@ export const projectsData = [
         demo: 'https://github.com/kunal1697/JobDekho',
         image: one
     },
-    {
-        id: 2,
-        projectName: 'Ielts Update(Personal)',
-        projectDesc: 'Architect of the IELTS News Update Project, disseminating the latest IELTS information to empower language learners worldwide."',
-        tags: ['Django', 'Jinja2'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: two
-    },
+    // {
+    //     id: 2,
+    //     projectName: 'Ielts Update(Personal)',
+    //     projectDesc: 'Architect of the IELTS News Update Project, disseminating the latest IELTS information to empower language learners worldwide."',
+    //     tags: ['Django', 'Jinja2'],
+    //     code: '',
+    //     demo: '',
+    //     image: two
+    // },
     {
         id: 3,
         projectName: 'Helthigy(Company)',
@@ -52,6 +52,15 @@ export const projectsData = [
         tags: ['Django', 'Jinja'],
         code: 'https://github.com/Saurabhchodvadiya/4thpillernewsapp',
         demo: 'https://github.com/Saurabhchodvadiya/4thpillernewsapp',
+        image: four
+    },
+    {
+        id: 6,
+        projectName: 'chalan dashboard',
+        projectDesc: 'This Project is use for chalan management',
+        tags: ['Django', 'Jinja','Ajax'],
+        code: 'https://github.com/Saurabhchodvadiya/chalanbillmanagement/tree/dev1',
+        demo: 'https://github.com/Saurabhchodvadiya/chalanbillmanagement/tree/dev1',
         image: four
     }
 ]

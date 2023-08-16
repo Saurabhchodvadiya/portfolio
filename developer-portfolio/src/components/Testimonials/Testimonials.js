@@ -43,32 +43,37 @@ function Testimonials() {
             {testimonialsData.length > 0 && (
                 <div
                     className='testimonials'
-                    style={{ backgroundColor: theme.primary }}
+                    style={{ backgroundColor: 'rgb(33, 33, 33)' }}
                 >
-                    <div className='testimonials--header'>
+                    {/* <div className='testimonials--header'>
                         <h1 style={{ color: theme.secondary }}>Testimonials</h1>
-                    </div>
+                    </div> */}
+                    <div className='testimonials--header'>
+    <h1 style={{ color: 'rgb(245, 101, 57)' }}>Testimonials</h1>
+</div>
                     <div className='testimonials--body'>
                         <FaQuoteLeft
                             className='quote'
-                            style={{ color: theme.secondary }}
+                            style={{ color: theme.primary }}
                         />
                         <div
                             className='testimonials--slider'
-                            style={{ backgroundColor: theme.primary }}
+                            style={{ backgroundColor: theme.secondary }}
                         >
                             <Slider {...settings} ref={sliderRef}>
                                 {testimonialsData.map((test) => (
                                     <div
                                         className='single--testimony'
                                         key={test.id}
+                                        
+                                        
                                     >
                                         <div className='testimonials--container'>
                                             <div
                                                 className='review--img'
                                                 style={{
                                                     backgroundColor:
-                                                        theme.secondary,
+                                                    'rgb(33, 33, 33)',
                                                 }}
                                             >
                                                 <img
@@ -80,7 +85,7 @@ function Testimonials() {
                                                 className='review--content'
                                                 style={{
                                                     backgroundColor:
-                                                        theme.secondary,
+                                                        theme.primary,
                                                     color: theme.tertiary,
                                                 }}
                                             >

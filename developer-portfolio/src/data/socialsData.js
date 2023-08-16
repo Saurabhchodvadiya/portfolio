@@ -7,5 +7,5 @@ export const socialsData = {
     twitter: 'https://www.upwork.com/freelancers/~012f5a97ee90286e33',
   
     medium: 'https://medium.com/@chodvadiyasaurabh',
-  
+    youtube:'https://hashnode.com/'
 }

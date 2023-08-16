@@ -120,7 +120,7 @@ function Landing() {
                                 target='_blank'
                                 rel='noreferrer'
                             >
-                                <FaYoutube
+                                <FaBlogger
                                     className='landing--social'
                                     style={{ color: theme.secondary }}
                                     aria-label='YouTube'
@@ -175,6 +175,7 @@ function Landing() {
                                         Download CV
                                     </Button>
                                 </a>
+                                
                             )}
                             <NavLink
                                 to='/#contacts'
@@ -186,6 +187,35 @@ function Landing() {
                                     Contact
                                 </Button>
                             </NavLink>
+                        </div>
+                        <div className='lcr-buttonContainer'>
+                            {headerData.recommedationPdf && (
+                                <a
+                                    href={headerData.recommedationPdf}
+                                    download='reccomendation'
+                                    target='_blank'
+                                    rel='noreferrer'
+                                >
+                                    <Button className={classes.contactBtn}>
+                                    
+                                    LOR
+                                    </Button>
+                                </a>
+                                
+                            )}
+                           {headerData.experiencePdf && (
+                                <a
+                                    href={headerData.experiencePdf}
+                                    download='experience'
+                                    target='_blank'
+                                    rel='noreferrer'
+                                >
+                                    <Button className={classes.resumeBtn}>
+                                        Experience letter
+                                    </Button>
+                                </a>
+                                
+                            )}
                         </div>
                     </div>
                 </div>

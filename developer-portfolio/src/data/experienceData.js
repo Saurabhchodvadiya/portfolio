@@ -1,8 +1,8 @@
 export const experienceData = [
     {
         id: 1,
-        company: 'Prime Technosoft',
-        jobtitle: 'Backend Developer',
+        company: 'Androtech Solutions',
+        jobtitle: 'Software Developer',
         startYear: '2021',
         endYear: '2022'
     },

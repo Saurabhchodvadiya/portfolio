@@ -381,7 +381,7 @@ function Contacts() {
                                     rel='noreferrer'
                                     className={classes.socialIcon}
                                 >
-                                    <FaYoutube aria-label='YouTube' />
+                                    <FaBloggerB aria-label='YouTube' />
                                 </a>
                             )}
                             {socialsData.reddit && (
